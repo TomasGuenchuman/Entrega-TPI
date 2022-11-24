@@ -1,0 +1,35 @@
+.Navbar {
+    background-color: lightblue;
+    height: 10vh;
+    max-height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Opciones{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContadorCarrito {
+    background-color: #f44336;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 35px;
+}
